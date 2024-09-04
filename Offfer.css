@@ -1,0 +1,246 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.pagetitle, .banner, .tour-packages, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.travel-categories {
+    text-align: center;
+    color: #E9967A;
+}
+.travel-categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 200px; 
+  margin-bottom: 20px; 
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.category img {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+}
+
+.category-text {
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+  width: 100%; 
+  text-align: center; 
+}
+
+.package {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+.package:last-child {
+    border-bottom: none;
+}
+
+.package:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.package img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #e8491d;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e8491d;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.duration {
+    font-style: italic;
+    color: #666;
+}
+
+.banner-text-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.form input, .form select, .form .book {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.book {
+    background-color: #e8491d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.book:hover {
+    background-color: #c53f17;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.form input[type="date"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.discount-packages {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.discount-package {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+.discount-badge {
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+    background-color: #e8491d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through; 
+    color: #666;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    font-weight: bold;
+    color: #e8491d;
+    font-size: 24px;
+}
+
+.discount-package:last-child {
+    border-bottom: none;
+}
+
+.discount-package h4 {
+    color: #e8491d;
+    margin-bottom: 5px;
+}
+
+/* Book Now Button Style */
+.book-now-btn {
+    display: inline-block;
+    background-color: #e8491d;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+    justify-items: flex-end;
+}
+
+.book-now-btn:hover {
+    background-color: #c53f17;
+}
+
+
+.favorite-places {
+    background-color: #fff; 
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+}
+
+
+.favorite-places {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.favorite-place {
+    border-bottom: 1px solid #ddd; 
+    padding: 20px;
+}
+
+.favorite-place:last-child {
+    border-bottom: none; 
+}
+
+.favorite-place h4 {
+    color: #e8491d; 
+    margin-bottom: 5px;
+}
+
+
+.favorite-place .price {
+    font-weight: bold;
+    color: #e8491d;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
